@@ -1,0 +1,33 @@
+Wichtige Git-Befehle:
+
+Allgemeines:
+ls 		#Ordnerinhalt anzeigen
+cd DATEIPFAD	#in den Dateipfad wechseln
+cd .. 		#aus der Datei raus gehen
+
+
+git init 	#ein spezielles git Verzeichnis anlegen
+
+
+git status 			#was wurde geändert
+git add DATEINAME 		#geänderte oder neue Datei zu git hinzufügen
+git commit -m "DEIN KOMMENTAR" 	#Änderung kommentieren
+git pull LINK 			#Dateien runterladen
+git push LINK 			#Dateien hochladen
+
+#-#-#-#-#
+
+Normalerweise läuft das Arbeiten mit git immer gleich ab:
+1. Dateien in den git Ordner runterladen (git pull)
+2. Dateien ganz normal bearbeiten
+3. Dateien wieder zu git hinzufügen (git add) und Änderungen 
+kommentieren (git commit)
+4. Dateien hochladen (git push) 
+
+
+#-#-#-#-#
+
+hier mal ein paar Links:
+offizielle Webseite: 		http://git-scm.com/
+Webseite zum Datenaustausch: 	https://github.com/
+Wikipedia: 			http://de.wikipedia.org/wiki/Git
