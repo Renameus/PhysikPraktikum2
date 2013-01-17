@@ -1,0 +1,88 @@
+% http://fachschaft.physik.uni-dortmund.de/images/GlobaltutAP/protokoll.txt
+% ========================================
+%	Header einbinden
+% ========================================
+
+\input{apheaderneu.tex}
+\renewcommand*\rmdefault{iwona}\normalfont\upshape
+
+% ========================================
+%	Angaben für das Titelblatt
+% ========================================
+
+\title{Versuch 402 - Dispersionsmessungen am Glasprisma\\				% Titel des Versuchs 
+\large TU Dortmund, Fakultät Physik\\ 
+\normalsize Anfänger-Praktikum}
+
+\author{Oliver Zietek\\			% Name Praktikumspartner A
+{\small \href{oliver.zietek@tu-dortmund.de}{oliver.zietek@tu-dortmund.de}}	% Erzeugt interaktiven einen Link
+\and						% um einen weiteren Author hinzuzfügen
+Fabian Lehmann\\					% Name Praktikumspartner B
+{\small \href{fabian.lehmann@tu-dortmund.de}{fabian.lehmann@tu-dortmund.de}}		% Erzeugt interaktiven einen Link
+}
+
+
+\date{20. Dezember 2012}				% Das Datum der Versuchsdurchführung
+
+% ========================================
+%	Das Dokument beginnt
+% ========================================
+
+\begin{document}
+
+% ========================================
+%	Titelblatt erzeugen
+% ========================================
+
+\maketitle					% Jetzt wird die Titelseite erzeugt
+\thispagestyle{empty} 				% Weder Kopfzeile noch Fußzeile
+
+% ========================================
+%	Der Vorspann
+% ========================================
+
+%\newpage					% Wenn Verzeichnisse auf einer neuen Seite beginnen sollen
+%\pagestyle{empty}				% Weder Kopf- noch Fußzeile für Verzeichnisse
+
+\tableofcontents
+
+%\newpage					% eine neue Seite
+%\thispagestyle{empty}				% Weder Kopf- noch Fußzeile für Verzeichnisse
+%\listoffigures					% Abbildungsverzeichnis
+
+%\newpage					% eine neue Seite
+%\thispagestyle{empty}				% Weder Kopf- noch Fußzeile für Verzeichnisse
+%\listoftables					% Tabellenverzeichnis
+\newpage					% eine neue Seite
+
+
+% ========================================
+%	Kapitel
+% ========================================
+
+%\section{Einleitung}				% Bei Bedarf
+%	\input{0einleitung.tex}
+\section{Theorie}
+	\input{0theorie.tex}
+	\FloatBarrier
+\section{Durchführung}
+	\input{0durchfuehrung.tex}
+	\FloatBarrier
+\section{Auswertung}
+	\input{0auswertung.tex}
+	\FloatBarrier
+\section{Diskussion}
+	\input{0diskussion.tex}
+	\FloatBarrier
+% ========================================
+%	Literaturverzeichnis
+% ========================================
+\nocite{link1} \nocite{link2}
+\bibliographystyle{plainnat}			% Bibliographie-Style auswählen
+\bibliography{lit}			% Literaturverzeichnis
+
+% ========================================
+%	Das Dokument endent
+% ========================================
+%\includegraphics[scale=0.75]{img011.jpg}
+\end{document}

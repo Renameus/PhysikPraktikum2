@@ -1,0 +1,40 @@
+This is BibTeX, Version 0.99dThe top-level auxiliary file: protokoll.aux
+The style file: plainnat.bst
+Database file #1: lit.bib
+I was expecting a `,' or a `}'---line 9 of file lit.bib
+ : 
+ : edition = {}
+(Error may have been on previous line)
+I'm skipping whatever remains of this entry
+I was expecting a `,' or a `}'---line 29 of file lit.bib
+ : 
+ : edition = {1}
+(Error may have been on previous line)
+I'm skipping whatever remains of this entry
+I was expecting a `,' or a `}'---line 39 of file lit.bib
+ : 
+ : edition = {}
+(Error may have been on previous line)
+I'm skipping whatever remains of this entry
+I was expecting a `,' or a `}'---line 49 of file lit.bib
+ : 
+ : edition = {}
+(Error may have been on previous line)
+I'm skipping whatever remains of this entry
+I was expecting a `,' or a `}'---line 59 of file lit.bib
+ : 
+ : edition = {}
+(Error may have been on previous line)
+I'm skipping whatever remains of this entry
+Warning--to sort, need author, editor, or key in anleitung
+Warning--to sort, need author, editor, or key in link1
+Warning--to sort, need author, editor, or key in link2
+Warning--empty author and editor in anleitung
+Warning--empty publisher in anleitung
+Warning--empty author and editor in link2
+Warning--empty title in link2
+Warning--empty publisher in link2
+Warning--empty author and editor in link1
+Warning--empty title in link1
+Warning--empty publisher in link1
+(There were 5 error messages)
