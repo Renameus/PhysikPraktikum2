@@ -1,0 +1,13 @@
+\begin{thebibliography}{1}
+\providecommand{\natexlab}[1]{#1}
+\providecommand{\url}[1]{\texttt{#1}}
+\expandafter\ifx\csname urlstyle\endcsname\relax
+  \providecommand{\doi}[1]{doi: #1}\else
+  \providecommand{\doi}{doi: \begingroup \urlstyle{rm}\Url}\fi
+
+\bibitem[anl(http://129.217.224.2/HOMEPAGE/Anleitung\_AP.html
+  (13.01.2013))]{anleitung}
+\emph{Versuch Nr. 601 - Der Franck-Hertz-Versuch}.
+\newblock http://129.217.224.2/HOMEPAGE/Anleitung\_AP.html (13.01.2013).
+
+\end{thebibliography}
