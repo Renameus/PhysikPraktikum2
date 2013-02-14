@@ -1,4 +1,4 @@
-%eqanreg
+%eqanreg, eqwstrich, eqdruck
 %picaufbaugrob, picfhkurvet
 \subsection{Grundsätzliche Funktionsweise}
 Das Ziel des Franck-Hertz-Versuches ist die Bestimmung diskreter Energiewerte der Energieniveaudifferenz
@@ -14,10 +14,17 @@ Ist die Energie der Elektronen zu gering, so kommt es zu elastischen Stößen, w
 aufgrund der Massenverhälnisse mit 
 vernachlässigbarem Energieverlust verbunden sind \cite{anleitung}, jedoch eine Richtungsänderung
 der Elektronen bewirken.
-\subsection{Arbeitsweise der Messanordnung}
+\subsection{Arbeitsweise der Messanordnung} \label{theorie}
 \input{picaufbaugrob} \input{picfhkurvet}
 Der grundsätzliche Aufbau einer Messanordnung zum Franck-Hertz-Versuch ist in Abbildung \ref{picaufbaugrob}
-dargestellt. Bei einem temperaturabhängigem Gleichgewichtsdampfdruck $p_{\text{sät}}$ von Hg-Dampf 
+dargestellt. 
+In der evakuierten Röhre befindet sich ein wenig Quecksilber, welches temperaturabhängig verdampft.
+An dem einen Ende der Röhre befindet sich ein Glüdraht, aus dem beim Erhitzen Elektronen austreten, 
+in der Mitte liegt eine netzförmige Beschleunigungselektrode, welche dem Glühdraht gegnüber eine
+Beschleunigungsspannung aufbaut, und an dem anderen Ende befindet sich eine Auffängerelektrode,
+welche eine Gegenspannung gegenüber der Beschleunigungselektrode besitzt und abhängig von der
+eintreffenden Anzahl von Elektronen einen Auffängerstrom registriert.
+Bei einem temperaturabhängigem Gleichgewichtsdampfdruck $p_{\text{sät}}$ von Hg-Dampf 
 werden Elektronen aus dem Glühdraht emittiert und mit einer Beschleunigungsspannung $U_B$ zu der
 Beschleunigungselektrode hin beschleunigt. Schließlich werden sie nach Durchlaufen des 
 Gegenfeldes mit der Abbremsspannung $U_A$ an der Auffängerelektrode als Auffängerstrom $I_A$
@@ -33,7 +40,13 @@ Abbremsspannung überwinden können, steigt $I_A$ kotinuierlich an. Sobald die E
 genug Energie besitzen um inelastische Stöße durchzuführen, sinkt $I_A$ stark ab, da die Elektronen
 fast alle Energie an die Hg-Atome abgegeben haben (vgl. Gl. (\ref{eqanreg})). Wird $U_B$ nun weiter
 erhöht, wiederholt sich der Vorgang mit dem Unterschied, dass es nun zu mehreren inelastischen Stößen 
-kommen kann. \\
+kommen kann. Der Abstand $U_1$ hängt dabei über Gleichung (\ref{equ1}) mit dem ersten Anregungspotential 
+zusammen. Fällt das Hg-Atom nun wieder aus diesem zurück, wird Licht mit der Frequenz $f$ nach Gleichung
+(\ref{eqlicht}) emittiert \cite {anleitung}.
+\begin{align}
+U_1=\frac{1}{e_0}(E_1-E_0) \label{equ1} \\
+h\cdot f &= E_1-E_0 \text{ , $h$: Planksches Wirkungsquantum} \label{eqlicht}
+\end{align}
 Desweitern lässt sich mit dieser Versuchsanordnung bei ausreichender Abbremsspannung zum Abhalten
 der Elektronen von der Auffängerelektrode und zur Messung der Ionen, die 
 Ionisierungsenergie von Hg bestimmen. Ebenfalls kann die differentielle Energieverteilung der Elektronen,
@@ -42,7 +55,7 @@ Um die Anzahl der Elektronen der Energie zwischen $E_Z$ und $E_Z + \Delta E_Z$ z
 die Differenz der jeweiligen Ströme bestimmt, wo gilt:
 \begin{align}
 E_Z&=e_0 U_A \\
-E_Z + \Delta E_Z &= e_0 (U_A + \Delta U_A)
+E_Z + \Delta E_Z &= e_0 (U_A + \Delta U_A) \label{eqbla}
 \end{align}
 \subsection{Störeffekte}
  Die reale Messkurve des Versuches ist aufgrund verschiedener Störfaktoren im Vergleich zu Abbildung
@@ -69,6 +82,6 @@ nicht immer zu den erwünschten Wechselwirkungen, ist der Druck zu hoch, gibt es
 inelastische Stöße. Die mittlere freie Weglänge der Atome, $\overline w$, muss klein gegenüber dem
 Abstand $a$ zwischen Kathode und der Beschleunigungselektrode sein.
 \begin{align}
-\overline w &=\frac{290}{p_{\text{sät}}} \\
-p_{\text{sät}}(T)&=5,5 \cdot 10^10 \cdot exp(-6876/T) 
+\overline w &=\frac{2,9\cdot 10^{-8}}{p_{\text{sät}}} \label{eqwstrich}\\
+p_{\text{sät}}(T)&=5,5 \cdot 10^{4} \cdot exp(-6876/T) \label{eqdruck}
 \end{align} 

@@ -2,11 +2,18 @@
 \contentsline {section}{\numberline {1}Theorie}{2}{section.1}
 \contentsline {subsection}{\numberline {1.1}Grunds\IeC {\"a}tzliche Funktionsweise}{2}{subsection.1.1}
 \contentsline {subsection}{\numberline {1.2}Arbeitsweise der Messanordnung}{2}{subsection.1.2}
-\contentsline {subsection}{\numberline {1.3}St\IeC {\"o}reffekte}{3}{subsection.1.3}
+\contentsline {subsection}{\numberline {1.3}St\IeC {\"o}reffekte}{4}{subsection.1.3}
 \contentsline {section}{\numberline {2}Durchf\IeC {\"u}hrung}{4}{section.2}
 \contentsline {subsection}{\numberline {2.1}Versuchsaufbau}{4}{subsection.2.1}
-\contentsline {subsection}{\numberline {2.2}Betimmung der Energieverteilung der beschleunigten Elektronen}{4}{subsection.2.2}
-\contentsline {subsection}{\numberline {2.3}Bestimmung der Franck-Hertz-Kurve}{4}{subsection.2.3}
+\contentsline {subsection}{\numberline {2.2}Betimmung der Energieverteilung der beschleunigten Elektronen}{5}{subsection.2.2}
+\contentsline {subsection}{\numberline {2.3}Bestimmung der Franck-Hertz-Kurve}{5}{subsection.2.3}
 \contentsline {subsection}{\numberline {2.4}Bestimmung der Ionisierungsspannung von Hg}{5}{subsection.2.4}
-\contentsline {section}{\numberline {3}Auswertung}{5}{section.3}
-\contentsline {section}{\numberline {4}Diskussion}{5}{section.4}
+\contentsline {section}{\numberline {3}Auswertung}{6}{section.3}
+\contentsline {subsection}{\numberline {3.1}Dampfdruck}{6}{subsection.3.1}
+\contentsline {subsection}{\numberline {3.2}Differentielle Energieverteilung der Elektronen}{6}{subsection.3.2}
+\contentsline {subsection}{\numberline {3.3}Franck-Hertz-Kurve}{11}{subsection.3.3}
+\contentsline {subsection}{\numberline {3.4}Ionisation}{11}{subsection.3.4}
+\contentsline {section}{\numberline {4}Diskussion}{11}{section.4}
+\contentsline {subsection}{\numberline {4.1}Differentielle Energieverteilung}{11}{subsection.4.1}
+\contentsline {subsection}{\numberline {4.2}Franck-Hertz-Kurve}{12}{subsection.4.2}
+\contentsline {subsection}{\numberline {4.3}Ionisation}{12}{subsection.4.3}

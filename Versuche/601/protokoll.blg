@@ -16,7 +16,37 @@ I was expecting a `,' or a `}'---line 39 of file lit.bib
  : edition = {}
 (Error may have been on previous line)
 I'm skipping whatever remains of this entry
+I was expecting a `,' or a `}'---line 49 of file lit.bib
+ : 
+ : edition = {}
+(Error may have been on previous line)
+I'm skipping whatever remains of this entry
 Warning--to sort, need author, editor, or key in anleitung
+Too many commas in name 1 of "Kramida, A., Ralchenko, Yu., Reader, J. und NIST ASD Team" for entry codatahgi
+while executing---line 1347 of file plainnat.bst
+Too many commas in name 1 of "Kramida, A., Ralchenko, Yu., Reader, J. und NIST ASD Team" for entry codatahgi
+while executing---line 1347 of file plainnat.bst
+Too many commas in name 1 of "Kramida, A., Ralchenko, Yu., Reader, J. und NIST ASD Team" for entry codatahgi
+while executing---line 1347 of file plainnat.bst
+Too many commas in name 1 of "Kramida, A., Ralchenko, Yu., Reader, J. und NIST ASD Team" for entry codatahgi
+while executing---line 1347 of file plainnat.bst
+Too many commas in name 1 of "Kramida, A., Ralchenko, Yu., Reader, J. und NIST ASD Team" for entry codatahgi
+while executing---line 1347 of file plainnat.bst
+Too many commas in name 1 of "Kramida, A., Ralchenko, Yu., Reader, J. und NIST ASD Team" for entry codatahgi
+while executing---line 1347 of file plainnat.bst
 Warning--empty author and editor in anleitung
 Warning--empty publisher in anleitung
-(There were 3 error messages)
+Too many commas in name 1 of "Kramida, A., Ralchenko, Yu., Reader, J. und NIST ASD Team" for entry codatahgi
+while executing---line 1429 of file plainnat.bst
+Too many commas in name 1 of "Kramida, A., Ralchenko, Yu., Reader, J. und NIST ASD Team" for entry codatahgi
+while executing---line 1429 of file plainnat.bst
+Too many commas in name 1 of "Kramida, A., Ralchenko, Yu., Reader, J. und NIST ASD Team" for entry codatahgi
+while executing---line 1429 of file plainnat.bst
+Too many commas in name 1 of "Kramida, A., Ralchenko, Yu., Reader, J. und NIST ASD Team" for entry codatahgi
+while executing---line 1429 of file plainnat.bst
+Too many commas in name 1 of "Kramida, A., Ralchenko, Yu., Reader, J. und NIST ASD Team" for entry codatahgi
+while executing---line 1429 of file plainnat.bst
+Too many commas in name 1 of "Kramida, A., Ralchenko, Yu., Reader, J. und NIST ASD Team" for entry codatahgi
+while executing---line 1429 of file plainnat.bst
+Warning--empty publisher in codatahgi
+(There were 16 error messages)
