@@ -12,4 +12,8 @@
 \contentsline {subsection}{\numberline {3.1}Bestimmung der Brechungsindices}{5}{subsection.3.1}
 \contentsline {subsection}{\numberline {3.2}Bestimmung der Dispersionskurve}{6}{subsection.3.2}
 \contentsline {subsection}{\numberline {3.3}Bestimmung der Abbesche Zahl}{7}{subsection.3.3}
-\contentsline {section}{\numberline {4}Diskussion}{8}{section.4}
+\contentsline {subsection}{\numberline {3.4}Aufl\IeC {\"o}sungsverm\IeC {\"o}gen}{9}{subsection.3.4}
+\contentsline {subsection}{\numberline {3.5}Absorptionsstelle}{9}{subsection.3.5}
+\contentsline {section}{\numberline {4}Diskussion}{9}{section.4}
+\contentsline {subsection}{\numberline {4.1}Statistische Fehler}{9}{subsection.4.1}
+\contentsline {subsection}{\numberline {4.2}Grunds\IeC {\"a}tzliche Ungenauigkeiten}{9}{subsection.4.2}

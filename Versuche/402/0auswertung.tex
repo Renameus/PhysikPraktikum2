@@ -28,18 +28,18 @@ wobei das Prisma mit der brechenden Kante über den Strahl hinweg auf eine
 spiegelverkehrte Position gedreht wurde. Damit ergibt sich mit der Formel:
 
 \begin{align}
-\varphi=180^\circ +\varphi_l - \varphi_r \nonumber
+\varphi=\frac{1}{2} (\varphi_r - \varphi_l) \nonumber
 \end{align}
 
 \begin{table}[h]
 \begin{center}
 \begin{tabular}[c]{|c|c|c|} \hline
 $\varphi_l$ in $^\circ$ & $\varphi_r$ in $^\circ$ & $\varphi$  in $^\circ$\\ \hline
-263,9 & 23,6+360 & 60,3 \\ 
-229,2 & 349,2 & 60 \\ 
-229,5 & 349,3 & 60,2 \\ 
-241,4 & 1,5+360 & 60,1 \\ 
-240,0 & 360,0 & 60,3 \\ \hline
+263,9 & 383,6 & 59,9 \\ 
+229,2 & 349,2 & 60,0 \\ 
+229,5 & 349,3 & 59,9 \\ 
+241,4 & 361,5 & 60,1 \\ 
+240,0 & 360,0 & 60,0 \\ \hline
 \end{tabular}
 \caption{Winkel $\Phi$ an der brechenden Kante des Prismas}
 \end{center}
@@ -47,18 +47,18 @@ $\varphi_l$ in $^\circ$ & $\varphi_r$ in $^\circ$ & $\varphi$  in $^\circ$\\ \hl
 % \newpage
 
 Somit lautet der Mittelwert:
-$\varphi = 60, 18^\circ \pm 0, 58^\circ$ Der Fehler wird mit der Formel der Standardabweichung des Mittelwertes
+$\varphi = 59,96^\circ \pm 0,04^\circ$ Der Fehler wird mit der Formel der Standardabweichung des Mittelwertes
 berechnet.
 
 Für die Indicies n und $\eta$ folgt damit:
 \begin{table}[h]
 \begin{center}
-\begin{tabular}[c]{|c|c|c|c|c|c|} \hline
-Farbe & $\lambda$ in nm & $\Omega_l$  in $^\circ$ & $\Omega_r$  in $^\circ$ & $\eta$  in $^\circ$ & n \\ \hline
-Rot & 632,8 & 147,5 & 27,5 +360 & 60 & 1,729\\
-Gelb & 594,1 & 147,3 & 27,2+360 & 59,9 & 1,728\\
-Gr"un & 543,5 & 146,8 & 26,7+360 & 59,9 & 1,728\\
-Blau & kA & 146,4 & 26,2+360 &  59,8 & 1,727\\ \hline
+\begin{tabular}[c]{ccccccc}
+Farbe & $\lambda$ in nm & $\Omega_l$  in $^\circ$ & $\Omega_r$  in $^\circ$ & $\eta$  in $^\circ$ & n & $\Delta$ n \\ \hline
+Rot & 706,3 & 147,5 & 386,2 & 58,7 & 1,721&  0,028\\
+Gelb & 578,4 & 147,3 & 386,7 & 59,4 & 1,727&  0,028\\
+Gr"un & 501,5 & 146,8 & 387,2 & 60,4 & 1,736& 0,028\\
+Blau & 447,1 & 146,4 & 387,5 &  61,1 & 1,742& 0,029\\
 \end{tabular}
 \caption{Brechungsindicies n und $\eta$}
 \end{center}
@@ -67,32 +67,46 @@ Blau & kA & 146,4 & 26,2+360 &  59,8 & 1,727\\ \hline
 \subsection{Bestimmung der Dispersionskurve}
 
 Um die Dispersionskurve zu bestimmen, werden die Quadrate der Brechungsindize
-gegen Quadrate der Wellenlängen und einmal gegen die Kehrwerte der Wellenlängenquadrate.
-Somit kann man mit einer linearen Regression y = mx + b bestimmen, durch die Abweichung der
-Kurve von den Messwerten kann bestimmt werden, welche Dispersionskurve die richtige ist.
-Aus der Ausgleichsrechnung ergibt sich für $n^2$ gegen $\lambda^{-2}$ 
- \begin{align}
-n^2( \lambda ) = (-0,302 \pm 0,241) \mu m^{2} \lambda^{-2} + 2,996 \pm 0,007\nonumber
-\end{align}
-und für $n^2$ gegen $\lambda^2$ ergibt sich
+gegen Quadrate der Wellenlängen und einmal gegen die Kehrwerte der Wellenlängenquadrate aufgetragen.
+Somit kann man eine linearen Regression y = mx + b bestimmen. Durch die Abweichung der
+Kurve von den Messwerten kann bestimmt werden, welche Dispersionskurve \cite{anleitung} die richtige ist,
 \begin{align}
-n'^2( \lambda ) = (0,273 \pm 0,183) \mu m^{-2} \lambda^2 + 2,977 \pm 0,006 \nonumber
+n^2(\lambda)&=A_0+\frac{A_2}{\lambda^2}+\ldots \label{eqdisp11o} \\
+\text{oder } n^2(\lambda)&=A_0'-A_2'\lambda^2-\ldots \label{eqdisp11ao}\text{ }.
 \end{align}
-
-Durch die berechnung der Abstandsquadrate $s_n$ und $s_n'$ folgt die richtige Dispersionskurve.
- \begin{align}
-s_n=2,3043\nonumber
-\end{align}
+\begin{table}[h]
+	\begin{center}
+		\begin{tabular}{ccc}
+			$\text{n}^2$&$\lambda^2\cdot 10^{23}/\text{ m}^2$&$1/\lambda^2\cdot 10^{-24}/(1/\text{ m}^2)$ \\ \hline
+			2,96&4,99&2,00\\
+			2,98&3,35&2,99\\
+			2,98&3,35&2,99\\
+			3,01&2,52&3,98\\
+			3,04&2,00&5,00
+		\end{tabular}
+		\caption{Basiswerte für die Methode der kleinsten Quadrate}
+		\label{tabwerteo}
+	\end{center}
+\end{table}
+Aus Tabelle \ref{tabwerteo} lassen sich die Gleichungen wie folgt bestimmen,
 \begin{align}
-s_n'=0,0193\nonumber
+n^2(\lambda)&=(2,91\pm0,01)+\frac{(2,5\pm0,1)\cdot 10^4}{\lambda^2} \\
+\text{oder } n^2(\lambda)&=(3,08\pm0,02)-(2,4\pm0,5)\cdot 10^{-7}\lambda^2.
 \end{align}
-Woraus folgt, dass die Dispersionskurve die gültige ist und folgendermaßen aussieht:
-
+Daraus lässt sich über die Bestimmung der Summe der Abweichungsquadrate\cite{anleitung} die richtige
+Dispersionsgleichung bestimmen.
+\begin{align}
+s_n^2&=\frac{1}{z-2}\sum_{i=1}^z\left( n^2(\lambda_i - A_0 - \frac{A_2}{\lambda_i^2})\right)^2= 9,38\cdot 10^{-6}\\ 
+s_{n'}^2&=\frac{1}{z-2}\sum_{i=1}^z\left( n^2(\lambda_i - A_0' + A_2'\lambda_i^2)\right)^2= 5,20\cdot 10^{-2}\\ 
+Z=4 \text{ Anzahl der Messwertepaare}
+\end{align}
+Da Gleichung (\ref{eqdisp11o}) das kleinere $s^2$ besitzt, handelt es sich dabei um die hier gültige Gleichung, 
+welche in Abbildung \ref{Dispersionskurve} dargestellt ist.
 \begin{figure}[h]
 	\centering
 		\includegraphics[width=1.00\textwidth]{Plot1B.png}
 		\caption{Dispersionskurve}
-	\label{fig:Plot}
+	\label{Dispersionskurve}
 \end{figure}
 
 \subsection{Bestimmung der Abbesche Zahl}
@@ -100,24 +114,37 @@ Zur Berechung der Abbeschen Zahl benötigt man die Formel
 \begin{align}
 v=\frac{n_D-1}{n_F-n_C}\nonumber
 \end{align}
-Für die man die Brechungsindizes der FRAUNHOFER'schen Linien benötigt. Diese erhält man
-indem man $\lambda_C$= 656nm,$\lambda_D$ = 589nm und $\lambda_F$ = 486nm in die Formel einsetzt.
-Dabei muss man beachten, dass $A_0$ und $A_2$ fehlerbehaftet sind, da die Messergebnisse,wie in der Diskussion
-erläutert große Fehler aufweisen wird auf die Fehlerfortpflanzung an dieser Stelle verzichtet.
-
-Somit folgt:
+Für die man die Brechungsindizes der Fraunhofer'schen Linien benötigt. Diese erhält man
+indem man $\lambda_C$= 656nm,$\lambda_D$ = 589nm und $\lambda_F$ = 486nm in die Gleichung (\ref{eqdisp11o}) einsetzt.
 
 \begin{align}
-n_C= 2,294\nonumber
+n_C= (1,72\pm0,002)\nonumber
 \end{align}
 \begin{align}
-n_D= 2,125\nonumber
+n_D= (1,73\pm0,002)\nonumber
 \end{align}
 \begin{align}
-n_F= 1,717\nonumber
+n_F= (1,74\pm0,002)\nonumber
 \end{align}
 \begin{align}
-v= -1,950 \nonumber
+v= (53\pm11) \nonumber
+\end{align}
+
+\subsection{Auflösungsvermögen}
+Das theoretische Auflösungsvermögen $A$ bei voll ausgeleuchtetem Prisma mit einer Basisbreite von
+$b=3$ cm  lässt sich mit Gleichung (\ref{eqaufo}) mit Gleichung (\ref{eqdisp11o}) für $\lambda_F$ und $\lambda_C$ berechnen \cite{anleitung}.
+\begin{align}
+A&=\frac{\lambda}{\Delta \lambda}=b\frac{\text{d}n}{\text{d}\lambda} \label{eqaufo}\\
+n(\lambda)&=\left(A_0+\frac{A_2}{\lambda^2} \right)^{1/2}\\
+\frac{\text{d}n}{\text{d}\lambda}&=A_2 \lambda^{-3} \left( A_0+\frac{A_2}{\lambda^2}\right)^{-1/2} \\
+\Rightarrow A_C&=1530\pm80,\text{ }A_F=3400\pm500
+\end{align}
+
+\subsection{Absorptionsstelle}
+Die dem sichtbaren Licht nächst gelegene Absorptionsstelle $\lambda_i$ lässt sich berechnen, wenn in Gleichung
+(\ref{eqdisp11o}) $n=1$ gesetzt wird.
+\begin{align}
+\lambda_i&=\left( \frac{A_2}{A_0-1} \right)^{1/2}=(114\pm 6)\text{ nm}
 \end{align}
 
 

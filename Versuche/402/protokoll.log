@@ -1,7 +1,7 @@
-This is pdfTeX, Version 3.1415926-2.3-1.40.12 (MiKTeX 2.9) (preloaded format=pdflatex 2012.10.5)  10 JAN 2013 10:27
+This is pdfTeX, Version 3.1415926-2.3-1.40.12 (MiKTeX 2.9) (preloaded format=pdflatex 2012.10.5)  7 FEB 2013 01:13
 entering extended mode
 **protokoll.tex
-(F:\Documents\uni\Git\Physik\Versuche\402\protokoll.tex
+(F:\Documents\uni\Git\Physik2\Versuche\402\protokoll.tex
 LaTeX2e <2011/06/27>
 Babel <v3.8m> and hyphenation patterns for english, afrikaans, ancientgreek, ar
 abic, armenian, assamese, basque, bengali, bokmal, bulgarian, catalan, coptic, 
@@ -13,7 +13,7 @@ an, ngerman-x-2009-06-19, nynorsk, oriya, panjabi, pinyin, polish, portuguese,
 romanian, russian, sanskrit, serbian, slovak, slovenian, spanish, swedish, swis
 sgerman, tamil, telugu, turkish, turkmen, ukenglish, ukrainian, uppersorbian, u
 senglishmax, welsh, loaded.
-(F:\Documents\uni\Git\Physik\Versuche\402\apheaderneu.tex
+(F:\Documents\uni\Git\Physik2\Versuche\402\apheaderneu.tex
 ("H:\Progam Files\miktxport\tex\latex\koma-script\scrartcl.cls"
 Document Class: scrartcl 2012/07/29 v3.11b KOMA-Script document class (article)
 
@@ -1091,7 +1091,7 @@ LaTeX Font Info:    Try loading font information for T1+iwona on input line 7.
 ("H:\Progam Files\miktxport\tex\latex\iwona\t1iwona.fd"
 File: t1iwona.fd 2008/07/22 v0.995 font definition file for T1/iwona (MW)
 )
-(F:\Documents\uni\Git\Physik\Versuche\402\protokoll.aux)
+(F:\Documents\uni\Git\Physik2\Versuche\402\protokoll.aux)
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 31.
 LaTeX Font Info:    ... okay on input line 31.
 LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 31.
@@ -1122,8 +1122,8 @@ LaTeX Info: Redefining \ref on input line 31.
 LaTeX Info: Redefining \pageref on input line 31.
 LaTeX Info: Redefining \nameref on input line 31.
 
-(F:\Documents\uni\Git\Physik\Versuche\402\protokoll.out)
-(F:\Documents\uni\Git\Physik\Versuche\402\protokoll.out)
+(F:\Documents\uni\Git\Physik2\Versuche\402\protokoll.out)
+(F:\Documents\uni\Git\Physik2\Versuche\402\protokoll.out)
 \@outlinefile=\write3
 LaTeX Info: Redefining \Ref on input line 31.
 
@@ -2478,15 +2478,15 @@ LaTeX Font Info:    Try loading font information for T1+cmss on input line 38.
 ("H:\Progam Files\miktxport\tex\latex\base\t1cmss.fd"
 File: t1cmss.fd 1999/05/25 v2.5h Standard LaTeX font definitions
 )
-(F:\Documents\uni\Git\Physik\Versuche\402\protokoll.toc)
+(F:\Documents\uni\Git\Physik2\Versuche\402\protokoll.toc)
 \tf@toc=\write4
  [1
 
 
 {H:/Progam Files/miktxport/pdftex/config/pdftex.map}]
-(F:\Documents\uni\Git\Physik\Versuche\402\0theorie.tex
-(F:\Documents\uni\Git\Physik\Versuche\402\picdispkurve.tex
-<picdispkurve.jpg, id=88, 611.28375pt x 231.86626pt>
+(F:\Documents\uni\Git\Physik2\Versuche\402\0theorie.tex
+(F:\Documents\uni\Git\Physik2\Versuche\402\picdispkurve.tex
+<picdispkurve.jpg, id=108, 611.28375pt x 231.86626pt>
 File: picdispkurve.jpg Graphic file (type jpg)
  <use picdispkurve.jpg>
 Package pdftex.def Info: picdispkurve.jpg used on input line 3.
@@ -2498,33 +2498,33 @@ Overfull \hbox (9.64015pt too wide) in paragraph at lines 3--4
 
 LaTeX Font Info:    Font shape `T1/iwona/bx/n' in size <10> not available
 (Font)              Font shape `T1/iwona/b/n' tried instead on input line 4.
-) [2 <F:/Documents/uni/Git/Physik/Versuche/402/picdispkurve.jpg>]
-(F:\Documents\uni\Git\Physik\Versuche\402\picapparatur.tex
-<picapparatur.jpg, id=112, 1123.19624pt x 435.87843pt>
+) [2 <F:/Documents/uni/Git/Physik2/Versuche/402/picdispkurve.jpg>]
+(F:\Documents\uni\Git\Physik2\Versuche\402\picapparatur.tex
+<picapparatur.jpg, id=132, 1123.19624pt x 435.87843pt>
 File: picapparatur.jpg Graphic file (type jpg)
  <use picapparatur.jpg>
 Package pdftex.def Info: picapparatur.jpg used on input line 3.
 (pdftex.def)             Requested size: 336.96147pt x 130.76453pt.
 )
-(F:\Documents\uni\Git\Physik\Versuche\402\picsymstrahl.tex
-<picsymstrahl.jpg, id=113, 754.31813pt x 344.78813pt>
+(F:\Documents\uni\Git\Physik2\Versuche\402\picsymstrahl.tex
+<picsymstrahl.jpg, id=133, 754.31813pt x 344.78813pt>
 File: picsymstrahl.jpg Graphic file (type jpg)
  <use picsymstrahl.jpg>
 Package pdftex.def Info: picsymstrahl.jpg used on input line 3.
 (pdftex.def)             Requested size: 301.72191pt x 137.9128pt.
 )
-[3 <F:/Documents/uni/Git/Physik/Versuche/402/picapparatur.jpg> <F:/Documents/un
-i/Git/Physik/Versuche/402/picsymstrahl.jpg>]
-(F:\Documents\uni\Git\Physik\Versuche\402\picprismawinkel.tex
-<picprismawinkel.jpg, id=127, 622.57594pt x 489.32813pt>
+[3 <F:/Documents/uni/Git/Physik2/Versuche/402/picapparatur.jpg> <F:/Documents/u
+ni/Git/Physik2/Versuche/402/picsymstrahl.jpg>]
+(F:\Documents\uni\Git\Physik2\Versuche\402\picprismawinkel.tex
+<picprismawinkel.jpg, id=147, 622.57594pt x 489.32813pt>
 File: picprismawinkel.jpg Graphic file (type jpg)
 
 <use picprismawinkel.jpg>
 Package pdftex.def Info: picprismawinkel.jpg used on input line 3.
 (pdftex.def)             Requested size: 186.77422pt x 146.79956pt.
 )
-(F:\Documents\uni\Git\Physik\Versuche\402\picbrechwinkel.tex
-<picbrechwinkel.jpg, id=129, 545.78906pt x 428.35031pt>
+(F:\Documents\uni\Git\Physik2\Versuche\402\picbrechwinkel.tex
+<picbrechwinkel.jpg, id=149, 545.78906pt x 428.35031pt>
 File: picbrechwinkel.jpg Graphic file (type jpg)
 
 <use picbrechwinkel.jpg>
@@ -2534,18 +2534,22 @@ Package pdftex.def Info: picbrechwinkel.jpg used on input line 3.
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-)) [4 <F:/Documents/uni/Git/Physik/Versuche/402/picprismawinkel.jpg>]
-(F:\Documents\uni\Git\Physik\Versuche\402\0durchfuehrung.tex)
-(F:\Documents\uni\Git\Physik\Versuche\402\0auswertung.tex [5 <F:/Documents/uni/
-Git/Physik/Versuche/402/picbrechwinkel.jpg>] [6]
-<Plot1B.png, id=153, 481.8pt x 291.33844pt>
+)) [4 <F:/Documents/uni/Git/Physik2/Versuche/402/picprismawinkel.jpg>]
+(F:\Documents\uni\Git\Physik2\Versuche\402\0durchfuehrung.tex)
+(F:\Documents\uni\Git\Physik2\Versuche\402\0auswertung.tex [5 <F:/Documents/uni
+/Git/Physik2/Versuche/402/picbrechwinkel.jpg>] [6]
+<Plot1B.png, id=178, 578.16pt x 431.4519pt>
 File: Plot1B.png Graphic file (type png)
  <use Plot1B.png>
-Package pdftex.def Info: Plot1B.png used on input line 93.
-(pdftex.def)             Requested size: 418.25555pt x 252.92004pt.
- [7 <F:/Documents/uni/Git/Physik/Versuche/402/Plot1B.png>])
-(F:\Documents\uni\Git\Physik\Versuche\402\0diskussion.tex)
-(F:\Documents\uni\Git\Physik\Versuche\402\protokoll.bbl
+Package pdftex.def Info: Plot1B.png used on input line 107.
+(pdftex.def)             Requested size: 418.25555pt x 312.11981pt.
+
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+[7] [8 <F:/Documents/uni/Git/Physik2/Versuche/402/Plot1B.png>])
+(F:\Documents\uni\Git\Physik2\Versuche\402\0diskussion.tex [9])
+(F:\Documents\uni\Git\Physik2\Versuche\402\protokoll.bbl
 Underfull \hbox (badness 10000) in paragraph at lines 10--12
 []\T1/iwona/m/it/10.95 Versuch Nr. 402 - Di-sper-si-ons-mes-sun-gen am Glaspris
 -ma\T1/iwona/m/n/10.95 .
@@ -2553,38 +2557,39 @@ Underfull \hbox (badness 10000) in paragraph at lines 10--12
 
 )
 Package atveryend Info: Empty hook `BeforeClearDocument' on input line 88.
- [8]
+ [10]
 Package atveryend Info: Empty hook `AfterLastShipout' on input line 88.
- (F:\Documents\uni\Git\Physik\Versuche\402\protokoll.aux)
+ (F:\Documents\uni\Git\Physik2\Versuche\402\protokoll.aux)
 Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 88.
 Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 88.
 Package rerunfilecheck Info: File `protokoll.out' has not changed.
-(rerunfilecheck)             Checksum: A05DCAEBD86053E7641CCFDA0FE6B22C;1106.
+(rerunfilecheck)             Checksum: B6CF486D6658ECD891E18E262B09B52D;1403.
  ) 
 Here is how much of TeX's memory you used:
- 20260 strings out of 494045
- 394919 string characters out of 3149241
- 480534 words of memory out of 3000000
- 23187 multiletter control sequences out of 15000+200000
+ 20290 strings out of 494045
+ 395348 string characters out of 3149241
+ 483534 words of memory out of 3000000
+ 23195 multiletter control sequences out of 15000+200000
  43402 words of font info for 80 fonts, out of 3000000 for 9000
  715 hyphenation exceptions out of 8191
- 46i,10n,53p,564b,890s stack positions out of 5000i,500n,10000p,200000b,50000s
+ 46i,13n,53p,294b,892s stack positions out of 5000i,500n,10000p,200000b,50000s
 {H:/Progam Files/miktxport/fonts/enc/dvips/iwona/ec-iwona.enc} <H:\Progam Fil
 es\miktxport\fonts\pk\ljfour\jknappen\ec\dpi600\ecsx1440.pk> <H:\Progam Files\m
 iktxport\fonts\pk\ljfour\jknappen\ec\dpi600\ecsx1095.pk> <H:\Progam Files\miktx
 port\fonts\pk\ljfour\jknappen\ec\dpi600\ecsx1200.pk> <H:\Progam Files\miktxport
 \fonts\pk\ljfour\jknappen\ec\dpi600\ecsx2074.pk><H:/Progam Files/miktxport/font
-s/type1/public/amsfonts/cm/cmmi10.pfb><H:/Progam Files/miktxport/fonts/type1/pu
-blic/amsfonts/cm/cmmi8.pfb><H:/Progam Files/miktxport/fonts/type1/public/amsfon
-ts/cm/cmr10.pfb><H:/Progam Files/miktxport/fonts/type1/public/amsfonts/cm/cmr8.
-pfb><H:/Progam Files/miktxport/fonts/type1/public/amsfonts/cm/cmsy10.pfb><H:/Pr
-ogam Files/miktxport/fonts/type1/public/amsfonts/cm/cmsy8.pfb><H:/Progam Files/
-miktxport/fonts/type1/nowacki/iwona/iwonab.pfb><H:/Progam Files/miktxport/fonts
-/type1/nowacki/iwona/iwonar.pfb><H:/Progam Files/miktxport/fonts/type1/nowacki/
-iwona/iwonari.pfb>
-Output written on protokoll.pdf (8 pages, 467063 bytes).
+s/type1/public/amsfonts/cm/cmex10.pfb><H:/Progam Files/miktxport/fonts/type1/pu
+blic/amsfonts/cm/cmmi10.pfb><H:/Progam Files/miktxport/fonts/type1/public/amsfo
+nts/cm/cmmi8.pfb><H:/Progam Files/miktxport/fonts/type1/public/amsfonts/cm/cmr1
+0.pfb><H:/Progam Files/miktxport/fonts/type1/public/amsfonts/cm/cmr8.pfb><H:/Pr
+ogam Files/miktxport/fonts/type1/public/amsfonts/cm/cmsy10.pfb><H:/Progam Files
+/miktxport/fonts/type1/public/amsfonts/cm/cmsy6.pfb><H:/Progam Files/miktxport/
+fonts/type1/public/amsfonts/cm/cmsy8.pfb><H:/Progam Files/miktxport/fonts/type1
+/nowacki/iwona/iwonab.pfb><H:/Progam Files/miktxport/fonts/type1/nowacki/iwona/
+iwonar.pfb><H:/Progam Files/miktxport/fonts/type1/nowacki/iwona/iwonari.pfb>
+Output written on protokoll.pdf (10 pages, 507972 bytes).
 PDF statistics:
- 344 PDF objects out of 1000 (max. 8388607)
- 45 named destinations out of 1000 (max. 500000)
- 143 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 412 PDF objects out of 1000 (max. 8388607)
+ 67 named destinations out of 1000 (max. 500000)
+ 175 words of extra memory for PDF output out of 10000 (max. 10000000)
 
